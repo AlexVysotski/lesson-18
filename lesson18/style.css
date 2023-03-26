@@ -1,0 +1,700 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    font-family: 'Manrope';
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1197px;
+    margin: auto;
+}
+
+header{
+    position: absolute;
+    z-index: 20;
+}
+
+.flex-parent1{
+    display: none;
+}
+
+.flex-parent{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 45px;
+    margin-left: 414px;
+    width: 100%;
+}
+
+.flex-intem{
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    padding-right: 40px;
+    margin-top: 10px;
+}
+
+.İletişim{
+    padding: 10px 20px;
+    width: 91px;
+    height: 40px;
+    background: #F84646;
+    border-radius: 5px;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.first{
+    height: 754px;
+    padding-top: 200px;
+    background-image: url(img/Rectangle.png);
+    background-size: cover;
+    position: relative;
+}
+
+.gradient{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+}
+
+.first2{
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 82px;
+    color: #000000;
+    width: 665px;
+    height: 164px;
+}
+
+.first1{
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    color: #000000;
+    width: 650px;
+    height: 99px;
+    padding-top: 20px;
+}
+
+.box{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 148px;
+    width: 502px;
+    height: 73px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.box2{
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    color: rgba(0, 0, 0, 0.4);
+    padding: 19px 150px 18px 32px;
+    
+}
+
+.box1{
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-top: 5px;
+    padding: 13px 38px 12px 37px;
+    background: #F84646;
+    border-radius: 8px;
+}
+
+.second{
+    max-height: 1053px;
+    padding-top: 50px;
+}
+
+.second div .h2{
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #000000;
+    padding: 120px 0px 30px 0px;
+}
+
+.second div .p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+    padding-bottom: 90px;
+}
+
+.second div .group1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 90px;
+    width: 1153px;
+}
+
+.second div div .group{
+    max-width: 316px;
+}
+
+.second div div div p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+    padding-bottom: 90px;
+}
+
+.second div div div h2{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+.second div div div div{
+    text-align: center;
+}
+
+.second div div div img{
+    padding-bottom: 10px;
+}
+
+.thirds{
+    background: #F84646;
+    height: 376px;;
+}
+
+.thirds div .h3{
+    padding: 68px 0px 8px 0px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+
+.thirds .p1{
+    padding-bottom: 64px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+
+.thirds .group2{
+    width: 1088px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+.thirds .group2 p{
+    height: 62px;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 31px;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+
+.thirds .group2 .right{
+    padding-right: 57px;
+    width: 32px;
+    height: 32px;
+}
+
+.thirds div .group2 .down{
+    display: none;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    padding: 40px 0 75px 0;
+}
+
+.fourth div .box13, .box14{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fourth div div .da{
+    display: flex;
+    flex-direction: column;
+}
+
+.fourth div h4{
+    width: 608px;
+    padding-top: 160px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+    color: #2E2E2E;
+}
+
+.fourth div p{
+    padding: 40px 0px 60px 0px;
+    width: 523px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #808080;
+}
+
+.Keşfet{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    width: 160px;
+    height: 40px;
+    background: #F84646;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 120px;
+}
+
+.img{
+    margin-top: 160px;
+    width: 504px;
+    height: 480px;
+    background-image: url(img/Illustration.png);
+    border-radius: 8px;
+}
+
+.img1{
+    width: 504px;
+    height: 480px;
+    background: url(img/I.png);
+    border-radius: 8px;
+}
+
+h5{
+    width: 548px;
+    left: 1002px;
+    top: 2943px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+    color: #2E2E2E;
+}
+
+.p9{
+    width: 523px;
+    left: 1002px;
+    top: 3135px;
+    padding: 40px 0px 60px 0px;
+    width: 523px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #808080;
+}
+
+.Keşfet1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    padding: 10px 20px;
+    width: 160px;
+    height: 40px;
+    background: #F84646;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.fiveth{
+    background-color: #F4F5F7;
+    height: 603px;
+    margin-top: 160px;
+}
+
+.fiveth div h6{
+    padding: 59px 0px 5px 0px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+}
+
+.fiveth div p{
+    padding-bottom: 48px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+}
+
+.fiveth .five div img{
+    background: #FFFFFF;
+    box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.2);
+    border-radius: 16px;
+    height: 68px;
+    width: 170px;
+    margin: 24px;
+}
+
+.fiveth .five div .img10{
+    padding: 19px 23px 18px 24px;
+}
+
+.fiveth .five .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 24px;
+}
+
+.five{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+.hide{
+    display: none;
+    margin-bottom: 24px;
+}
+
+.sixth{
+    margin-bottom: 160px;
+}
+
+.sixth div .center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sixth div .img3{
+    margin: 160px 0px 10px 0px;
+}
+
+.sixth div h6{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.sixth div p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+    padding: 20px 0px 30px 0px;
+}
+
+.BizeUlaşın{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 20px;
+    background: #F84646;
+    padding: 25px 40px;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+footer{
+    background-color: #F8464A;
+    font-family: 'Inter';
+}
+
+footer h1{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    padding: 80px 0px 24px 0px;
+}
+
+footer div .bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p{
+    padding-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #E6E6E6;
+}
+
+.copyright{
+    color: #FFFFFF;
+    padding-top: 26px;
+}
+
+footer div img{
+    height: 32px;
+}
+
+.footersection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media(max-width: 1500px){
+    .container{
+        width: 90%;
+    }
+}
+
+@media(max-width: 1200px){
+    .flex-parent{
+        margin-left: 230px;
+    }
+    .second div .group1{
+        height: 798px;
+        width: 945px;
+        text-align: center;
+        justify-content: space-around;
+    }
+    .thirds{
+        margin-top: 360px;
+    }
+    .fourth div div div h4,h5{
+        width: 515px;
+    }
+    .fourth div div div .img,.img1{
+        width: 424px;
+        height: 404px;
+    }
+}
+
+@media(max-width: 450px){
+    .container{
+        width: 85%;
+    }
+}
+
+@media(max-width: 400px){
+    header{
+        width: 100%;
+    }
+    .flex-parent{
+        display: none;
+    }
+    .flex-parent1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 35px;
+    }
+    .first{
+        background-position: 65%;
+    }
+
+    .gradient{
+        background: radial-gradient(118.67% 101.66% at 141.47% 78.12%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    }
+
+    .first2{
+        width: 335px;
+        font-size: 42px;
+        line-height: 58px;
+        text-align: center;
+    }
+    .first1{
+        width: 335px;
+        font-size: 12px;
+        line-height: 23px;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .box{
+        width: 335px;
+        margin-top: 43px;
+    }
+    .box2{
+        height: 30px;
+        font-size: 14px;
+        padding: 17.34px 0px 17.34px 21.35px;
+    }
+    .box1{
+        font-size: 14px;
+        line-height: 19px;
+        padding: 16px 15px 16px 18px;
+        margin-left: 64px;
+        margin-top: 11px;
+    }
+    .second div .h2{
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .second div .p{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .second div .group1{
+        width: 335px;
+        height: 1665px;
+        text-align: center;
+    }
+    .second div div .group{
+        width: 98%;
+    }
+    .thirds{
+        height: 936px;
+        margin-top: 1237px;
+        text-align: center;
+    }
+    .thirds div .h3{
+        font-size: 36px;
+        line-height: 47px;
+    }
+    .thirds div .group2{
+        display: inline-block;
+        max-width: 259px;
+        height: 183px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    .thirds div div p{
+        text-align: center;
+    }
+    .thirds div div .right{
+        display: none;
+    }
+    .thirds div .group2 .down{
+        display: inline-block;
+    }
+    .fourth div .box13{
+        flex-direction: column-reverse;
+    }
+    .img{
+        margin-top: 90px;
+        width: 335px;
+        height: 312px;
+    }
+    .fourth div .box14{
+        flex-direction: column;
+    }
+    .fourth div div div h4, h5{
+        width: 335px;
+        font-size: 36px;
+        line-height: 42px;
+        padding-top: 30px;
+        text-align: center;
+    }
+    .fourth div div div p{
+        width: 336px;
+        font-size: 14px;
+        line-height: 28px;
+        text-align: center;
+    }
+    .fourth div div div .Keşfet{
+        width: 100%;
+    }
+    .img1{
+        margin-top: 60px;
+        width: 335px;
+        height: 312px;
+    }
+    .fourth div div div .Keşfet1{
+        width: 100%;
+    }
+    .fiveth{
+        height: 904px;
+        text-align: center;
+    }
+    .fiveth div h6{
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .fiveth div p{
+        font-size: 14px;
+        line-height: 32px;
+    }
+    .five{
+        display: none;
+    }
+    .hide{
+        display: inline-block;
+        text-align: center;
+        width: 223px;
+        
+    }
+    .hide img{
+        margin-bottom: 24px;
+        background-color: #FFFFFF;
+        border-radius: 16px;
+        box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.2);
+    }
+    .sixth div h6{
+        font-size: 36px;
+        line-height: 32px;
+    }
+    .sixth div p{
+        width: 100%;
+        font-size: 14px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .BizeUlaşın{
+        font-size: 16px;
+        padding: 25px 40px;
+    }
+    .footersection{
+        flex-direction: column;
+    }
+    footer div .bottom{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+}
